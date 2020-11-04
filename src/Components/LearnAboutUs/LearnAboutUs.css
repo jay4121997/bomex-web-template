@@ -1,0 +1,49 @@
+.LearnAboutUs{
+    background-color: #f0f0f0;
+    padding: 120px 0;
+
+}
+.LearnAboutUs img
+{
+    width: 100%;
+}
+.text{
+    padding: 20px 30px 20px 0px;
+}
+.text h1{
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.text p{
+    font-size: 18px;
+    line-height: 36px;
+}
+.text button{
+    background-color: #171717;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 15px 35px;
+    border: 0;
+    transition: all 0.3s ease-in;
+}
+.text button:hover {
+    background-color: #F9B81F;
+    color: #171717;
+}
+@media (max-width:700px){
+    .LearnAboutUs{
+        padding: 60px 0px;
+    }
+    .text{
+        padding-right: 0px;
+    }
+    .text p{
+        text-align: justify;
+    }
+    .LearnAboutUs img{
+        margin-top: 50px;
+    }
+}

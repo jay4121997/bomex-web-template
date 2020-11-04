@@ -1,0 +1,38 @@
+
+.icon-class
+{
+    width: 47%;
+    margin: auto;
+    padding: 35px 30px;
+    font-size: 20px;
+    background-color: #171717;
+    border-radius: 50%;
+}
+.box
+{
+    /* justify-content: center; */
+    padding: 10px;
+    padding-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #abbfcc;
+    box-shadow: 3px 3px 3px grey;
+}
+.box h1
+{
+    margin-top: 40px;
+    font-size: 22px;
+    color: #171717;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+@media (max-width:500px){
+    .box{
+
+    }
+    .icon-class{
+        width: 50%;
+    }
+}
